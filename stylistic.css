@@ -1,0 +1,14 @@
+#bg{
+    background-color: burlywood;
+}
+body{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+#hd{
+    font-family: cursive;
+    font-style: italic;
+    color: cadetblue;
+}
