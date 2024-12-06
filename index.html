@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        #styler
+        {
+            border-color: black;
+            border-style:solid;
+            padding: 5pt;
+            margin-bottom: 10pt;
+        }
+    </style>
+</head>
+<body>
+    <h1>Mehrwertsteuer-Rechner</h1>
+    <form action="source.php" method="post">
+        <label>Bruttobetrag: <input type="text" name="amount"></label>
+        <p>Mehrwertsteuersatz:</p>
+        <div id="styler">
+            <input type="radio" name="value" value="19">19%</input>
+            <input type="radio" name="value" value="7">7%</input>
+            <label>andere: <input type="number" name="extraValue"></label><br>
+        </div>
+        <input type="submit">
+    </form>
+</body>
+</html>
+<!--->
